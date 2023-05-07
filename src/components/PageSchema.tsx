@@ -15,7 +15,7 @@ const PageSchema = (props: React.PropsWithChildren) => {
         <div className="h-screen w-full flex flex-col items-center justify-center select-none">
             <BackgroundNoSSR />
             <Navbar />
-            <div className="absolute h-full w-full flex flex-col items-center justify-center text-white z-0">
+            <div className="pt-20 h-full w-full flex flex-col items-center justify-center text-white z-0">
                 {props.children}
             </div>
         </div>

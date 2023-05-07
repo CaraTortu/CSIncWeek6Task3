@@ -1,3 +1,4 @@
+import React from "react"
 import PageSchema from '@/components/PageSchema'
 import './globals.css'
 import { Roboto_Mono } from 'next/font/google'
@@ -16,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <PageSchema>
-          {children}
-        </PageSchema>
+        <React.StrictMode>
+          <PageSchema>
+            {children}
+          </PageSchema>
+        </React.StrictMode>
       </body>
     </html>
   )

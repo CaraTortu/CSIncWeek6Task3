@@ -1,8 +1,8 @@
 "use client"
 
-export default function Home() {
+export default function Coding() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+    <main className="flex flex-col items-center justify-center">
       <h1>Coding</h1>
     </main>
   )

@@ -16,8 +16,6 @@ const NavbarLink = (input: { to: string, text: string }) => {
         // Make sure to cleanup before next iteration
         clearInterval(interval)
 
-        console.log(textRef.current.classList.contains("text-red-500"))
-
         // Set red colour
         if (!textRef.current.classList.contains("text-red-500")) {
             textRef.current.classList.add("text-red-500")
