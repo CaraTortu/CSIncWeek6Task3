@@ -4,7 +4,7 @@ import NavbarLink from "./NavbarLink"
 
 const Navbar = () => {
     return (
-        <div className="fixed top-0 w-full flex justify-center items-center h-16 shadow-xl gap-12 backdrop-blur-md z-20">
+        <div className="fixed top-0 w-full flex justify-center items-center h-16 shadow-xl gap-12 backdrop-blur-sm z-20">
             <div className="absolute top-4 left-20 text-xl m-auto">
                 <NavbarLink to="/" text="JavierIE" />
             </div>
