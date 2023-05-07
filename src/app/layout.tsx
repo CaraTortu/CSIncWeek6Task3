@@ -1,8 +1,8 @@
 import PageSchema from '@/components/PageSchema'
 import './globals.css'
-import { Roboto } from 'next/font/google'
+import { Roboto_Mono } from 'next/font/google'
 
-const roboto = Roboto({ weight: "300", subsets: ["latin"]})
+const roboto = Roboto_Mono({ weight: "300", subsets: ["latin"]})
 
 export const metadata = {
   title: 'Week 6 Class 3'
