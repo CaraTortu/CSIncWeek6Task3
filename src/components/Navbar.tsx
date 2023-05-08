@@ -8,9 +8,9 @@ const Navbar = () => {
             <div className="absolute top-4 left-20 text-xl m-auto">
                 <NavbarLink to="/" text="JavierIE" />
             </div>
-            <NavbarLink to="/coding" text="CODING" />
+            <NavbarLink to="/skills" text="SKILLS" />
             <NavbarLink to="/projects" text="PROJECTS" />
-            <NavbarLink to="/ty" text="TY" />
+            <NavbarLink to="/education" text="EDUCATION" />
         </div>
     )
 }
